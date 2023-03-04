@@ -1,0 +1,63 @@
+==========
+[[0, 1], [1, 0]]
+{'Permutation': 3133, 'SequenceOrder': 405, 'f(t,c)': 7554, 'Count': 1159}
+Max chain length:  3 for x(1,1)
+Chain count:  12
+Qubits used:  39
+Correct results:  1078
+==========
+[[0, 1, 1], [1, 0, 1]]
+{'Permutation': 8038, 'SequenceOrder': 2441, 'f(t,c)': 10000, 'Count': 9875}
+Max chain length:  4 for f(1,2)
+Chain count:  42
+Qubits used:  132
+Correct results:  0
+==========
+[[0, 2, 1], [1, 0, 2]]
+{'Permutation': 8336, 'SequenceOrder': 2516, 'f(t,c)': 9984, 'Count': 9370}
+Max chain length:  4 for x(1,1)
+Chain count:  47
+Qubits used:  139
+Correct results:  0
+==========
+[[0, 2, 1], [1, 0, 2]]
+{'Permutation': 6772, 'SequenceOrder': 1647, 'f(t,c)': 9171, 'Count': 1818}
+Max chain length:  3 for x(4,1)
+Chain count:  39
+Qubits used:  97
+Correct results:  146
+==========
+[[0, 1, 0, 1], [1, 1, 0, 0]]
+{'Permutation': 9792, 'SequenceOrder': 5033, 'f(t,c)': 10000, 'Count': 9191}
+Max chain length:  7 for x(5,5)
+Chain count:  91
+Qubits used:  343
+Correct results:  0
+==========
+[[0, 2], [1, 1], [2, 0]]
+{'Permutation': 9104, 'SequenceOrder': 1290, 'f(t,c)': 9972, 'Count': 7875}
+Max chain length:  5 for x(1,5)orx(1,4)orx(4,4)
+Chain count:  61
+Qubits used:  201
+Correct results:  0
+==========
+[[0, 2], [1, 1], [2, 0]]
+{'Permutation': 7990, 'SequenceOrder': 1986, 'f(t,c)': 9662, 'Count': 1097}
+Max chain length:  5 for x(1,1)
+Chain count:  48
+Qubits used:  145
+Correct results:  64
+==========
+[[0, 2, 1], [1, 0, 2], [1, 2]]
+{'Permutation': 9921, 'SequenceOrder': 5893, 'f(t,c)': 10000, 'Count': 8647}
+Max chain length:  10 for x(0,2)orx(4,2)
+Chain count:  119
+Qubits used:  537
+Correct results:  0
+==========
+[[0, 2, 1], [1, 0, 2], [1, 2]]
+{'Permutation': 9958, 'SequenceOrder': 6165, 'f(t,c)': 10000, 'Count': 7821}
+Max chain length:  9 for x(5,2)
+Chain count:  100
+Qubits used:  477
+Correct results:  0

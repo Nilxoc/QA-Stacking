@@ -1,0 +1,73 @@
+\hypertarget{namespaceStackingProblem_1_1collectConstStats}{}\doxysection{Stacking\+Problem.\+collect\+Const\+Stats Namespace Reference}
+\label{namespaceStackingProblem_1_1collectConstStats}\index{StackingProblem.collectConstStats@{StackingProblem.collectConstStats}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a24e0bf1fd204fcd70569a7142b430bfa}\label{namespaceStackingProblem_1_1collectConstStats_a24e0bf1fd204fcd70569a7142b430bfa}} 
+def \mbox{\hyperlink{namespaceStackingProblem_1_1collectConstStats_a24e0bf1fd204fcd70569a7142b430bfa}{add\+Missing\+Variables}} (bqm, sampleset)
+\begin{DoxyCompactList}\small\item\em Adds variables that are present in the sampleset but not the bqm to the bqm o facilitate the calculation of energy with partial constraints. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_ace388e65a35380d0d5f095844fa95d1c}\label{namespaceStackingProblem_1_1collectConstStats_ace388e65a35380d0d5f095844fa95d1c}} 
+def {\bfseries count\+Greater\+Zero} (energies, occs)
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a1c296853dc23ada1395b7538830fc035}\label{namespaceStackingProblem_1_1collectConstStats_a1c296853dc23ada1395b7538830fc035}} 
+def \mbox{\hyperlink{namespaceStackingProblem_1_1collectConstStats_a1c296853dc23ada1395b7538830fc035}{complete\+Partial\+B\+QM}} (sampleset, generator)
+\begin{DoxyCompactList}\small\item\em Completes B\+QM not using all conditions for testing. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a6a2e26f2366cf11d695d40a72be2d607}\label{namespaceStackingProblem_1_1collectConstStats_a6a2e26f2366cf11d695d40a72be2d607}} 
+def {\bfseries count\+Overlaps} (in\+List, occs)
+\item 
+def \mbox{\hyperlink{namespaceStackingProblem_1_1collectConstStats_a039cb4afbb402cadd149b1d0ea17b91b}{calc\+Constraint\+Stats}} (sampleset, dec\+\_\+bound=1)
+\begin{DoxyCompactList}\small\item\em Berechnet, wie oft die einzelnen Constraint des F\+I\+F\+O-\/\+Stack up Problems im angegebenen Sampleset verletzt werden. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a684f1c61c3202c5765c16427c4e13965}\label{namespaceStackingProblem_1_1collectConstStats_a684f1c61c3202c5765c16427c4e13965}} 
+{\bfseries parser} = argparse.\+Argument\+Parser()
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a317c29824ad5c5dd478696811693095b}\label{namespaceStackingProblem_1_1collectConstStats_a317c29824ad5c5dd478696811693095b}} 
+{\bfseries type}
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a58a2297a902b6bab0fb2277014c1613a}\label{namespaceStackingProblem_1_1collectConstStats_a58a2297a902b6bab0fb2277014c1613a}} 
+{\bfseries int}
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a35c8bf20d40404c0daef7d3f3aa14246}\label{namespaceStackingProblem_1_1collectConstStats_a35c8bf20d40404c0daef7d3f3aa14246}} 
+{\bfseries action}
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a30ed98fdabb39faaef68bba6ff608a5d}\label{namespaceStackingProblem_1_1collectConstStats_a30ed98fdabb39faaef68bba6ff608a5d}} 
+{\bfseries dest}
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a3a48f0ccec96c9dbc8cdc48dfe9b3440}\label{namespaceStackingProblem_1_1collectConstStats_a3a48f0ccec96c9dbc8cdc48dfe9b3440}} 
+{\bfseries metavar}
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a068f7ed1ada0f2b1dec7475bc73eaea2}\label{namespaceStackingProblem_1_1collectConstStats_a068f7ed1ada0f2b1dec7475bc73eaea2}} 
+{\bfseries default}
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a6eb166bfa9851ea98f255014f23ec64b}\label{namespaceStackingProblem_1_1collectConstStats_a6eb166bfa9851ea98f255014f23ec64b}} 
+{\bfseries args} = parser.\+parse\+\_\+args(sys.\+argv\mbox{[}2\+:\mbox{]})
+\item 
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a9bae418ac21b5aa16476cccaf1a74534}\label{namespaceStackingProblem_1_1collectConstStats_a9bae418ac21b5aa16476cccaf1a74534}} 
+{\bfseries ss} = qa\+Utils.\+load\+Sampleset(sys.\+argv\mbox{[}1\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This Script collects statistics about which constraints are being violated how much in a given sampleset 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespaceStackingProblem_1_1collectConstStats_a039cb4afbb402cadd149b1d0ea17b91b}\label{namespaceStackingProblem_1_1collectConstStats_a039cb4afbb402cadd149b1d0ea17b91b}} 
+\index{StackingProblem.collectConstStats@{StackingProblem.collectConstStats}!calcConstraintStats@{calcConstraintStats}}
+\index{calcConstraintStats@{calcConstraintStats}!StackingProblem.collectConstStats@{StackingProblem.collectConstStats}}
+\doxysubsubsection{\texorpdfstring{calcConstraintStats()}{calcConstraintStats()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+collect\+Const\+Stats.\+calc\+Constraint\+Stats (\begin{DoxyParamCaption}\item[{}]{sampleset,  }\item[{}]{dec\+\_\+bound = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+Berechnet, wie oft die einzelnen Constraint des F\+I\+F\+O-\/\+Stack up Problems im angegebenen Sampleset verletzt werden. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sampleset} & Das dimod.\+Sample\+Set über das die Statistik erhoben werden soll\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dict\{String\+:List\} Dictionary mit den einzelnen Constraints als Keys und Statistiken über diese Constraints 
+\end{DoxyReturn}

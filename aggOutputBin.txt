@@ -1,0 +1,243 @@
+[[0, 1], [1, 0]]
+k:  1
+--Average--
+{'Count': 274.6,
+ 'Permutation': 742.2,
+ 'SequenceOrder': 94.80000000000001,
+ 'chain_count': 11.600000000000001,
+ 'correct': 194.4,
+ 'f(t,c)': 1479.8000000000002,
+ 'lowest_energy': 2.0,
+ 'max_chain_len': 2.2,
+ 'num_embedded_var': 37.9,
+ 'num_var': 26.0,
+ 'samples_with_lowest_energy': 112.10000000000001}
+--Standard Deviation--
+{'Count': 25.730137970869883,
+ 'Permutation': 58.88599154298075,
+ 'SequenceOrder': 22.83330900242013,
+ 'chain_count': 2.1540659228538015,
+ 'correct': 53.78140942742204,
+ 'f(t,c)': 74.88097221591077,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.39999999999999997,
+ 'num_embedded_var': 2.4677925358506134,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 32.849505323520475}
+======
+[[0, 1, 1], [1, 0, 1]]
+k:  1
+--Average--
+{'Count': 1550.5,
+ 'Permutation': 1714.0,
+ 'SequenceOrder': 501.6,
+ 'chain_count': 43.7,
+ 'correct': 0.4,
+ 'f(t,c)': 1985.0,
+ 'lowest_energy': 2.0,
+ 'max_chain_len': 4.0,
+ 'num_embedded_var': 127.5,
+ 'num_var': 62.0,
+ 'samples_with_lowest_energy': 0.2}
+--Standard Deviation--
+{'Count': 302.47090769196296,
+ 'Permutation': 78.02307351034051,
+ 'SequenceOrder': 55.891323119067415,
+ 'chain_count': 3.8223029707232783,
+ 'correct': 0.66332495807108,
+ 'f(t,c)': 14.580809305384937,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.6324555320336759,
+ 'num_embedded_var': 9.468368391650168,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 0.4}
+======
+[[0, 2, 1], [1, 0, 2]]
+k:  1
+--Average--
+{'Count': 1553.2,
+ 'Permutation': 1804.4,
+ 'SequenceOrder': 534.3000000000001,
+ 'chain_count': 52.1,
+ 'correct': 0.0,
+ 'f(t,c)': 1997.6000000000001,
+ 'lowest_energy': 252.0,
+ 'max_chain_len': 4.6000000000000005,
+ 'num_embedded_var': 155.3,
+ 'num_var': 65.0,
+ 'samples_with_lowest_energy': 0.1}
+--Standard Deviation--
+{'Count': 330.0287260224479,
+ 'Permutation': 47.91492460601394,
+ 'SequenceOrder': 79.6430160152163,
+ 'chain_count': 3.3896902513356584,
+ 'correct': 0.0,
+ 'f(t,c)': 1.6852299546352718,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.48989794855663565,
+ 'num_embedded_var': 8.185963596303127,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 0.30000000000000004}
+======
+[[0, 2, 1], [1, 0, 2]]
+k:  2
+--Average--
+{'Count': 363.0,
+ 'Permutation': 1517.0,
+ 'SequenceOrder': 410.40000000000003,
+ 'chain_count': 34.800000000000004,
+ 'correct': 9.9,
+ 'f(t,c)': 1894.7,
+ 'lowest_energy': 1.0,
+ 'max_chain_len': 3.4000000000000004,
+ 'num_embedded_var': 97.60000000000001,
+ 'num_var': 49.0,
+ 'samples_with_lowest_energy': 2.2}
+--Standard Deviation--
+{'Count': 140.18487792911188,
+ 'Permutation': 50.07993610219566,
+ 'SequenceOrder': 29.431955422635443,
+ 'chain_count': 1.9390719429665315,
+ 'correct': 5.337602458033007,
+ 'f(t,c)': 36.392444270754886,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.4898979485566356,
+ 'num_embedded_var': 3.4985711369071804,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 1.32664991614216}
+======
+[[0, 1, 0, 1], [1, 1, 0, 0]]
+k:  1
+--Average--
+{'Count': 1706.8000000000002,
+ 'Permutation': 1963.3000000000002,
+ 'SequenceOrder': 1031.3,
+ 'chain_count': 84.5,
+ 'correct': 0.0,
+ 'f(t,c)': 1999.9,
+ 'lowest_energy': 1002.0,
+ 'max_chain_len': 6.0,
+ 'num_embedded_var': 296.90000000000003,
+ 'num_var': 106.0,
+ 'samples_with_lowest_energy': 0.1}
+--Standard Deviation--
+{'Count': 253.15283920983387,
+ 'Permutation': 9.706183596038146,
+ 'SequenceOrder': 81.86702632928596,
+ 'chain_count': 3.694590640382233,
+ 'correct': 0.0,
+ 'f(t,c)': 0.30000000000000004,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.4472135954999579,
+ 'num_embedded_var': 15.636176003102548,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 0.30000000000000004}
+======
+[[0, 2], [1, 1], [2, 0]]
+k:  1
+--Average--
+{'Count': 1514.8000000000002,
+ 'Permutation': 1848.9,
+ 'SequenceOrder': 521.9,
+ 'chain_count': 63.2,
+ 'correct': 0.0,
+ 'f(t,c)': 1999.6000000000001,
+ 'lowest_energy': 502.0,
+ 'max_chain_len': 4.9,
+ 'num_embedded_var': 205.70000000000002,
+ 'num_var': 77.0,
+ 'samples_with_lowest_energy': 0.1}
+--Standard Deviation--
+{'Count': 303.55585976884055,
+ 'Permutation': 15.507740002979158,
+ 'SequenceOrder': 71.03442827249333,
+ 'chain_count': 1.833030277982336,
+ 'correct': 0.0,
+ 'f(t,c)': 0.9165151389911682,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.3,
+ 'num_embedded_var': 10.798611021793498,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 0.30000000000000004}
+======
+[[0, 2], [1, 1], [2, 0]]
+k:  2
+--Average--
+{'Count': 414.8,
+ 'Permutation': 1758.1000000000001,
+ 'SequenceOrder': 449.70000000000005,
+ 'chain_count': 49.400000000000006,
+ 'correct': 1.1,
+ 'f(t,c)': 1968.8000000000002,
+ 'lowest_energy': 1.0,
+ 'max_chain_len': 4.6000000000000005,
+ 'num_embedded_var': 151.5,
+ 'num_var': 61.0,
+ 'samples_with_lowest_energy': 0.30000000000000004}
+--Standard Deviation--
+{'Count': 200.5197247155501,
+ 'Permutation': 30.05811038638324,
+ 'SequenceOrder': 48.60874406935444,
+ 'chain_count': 2.764054992217051,
+ 'correct': 1.1357816691600546,
+ 'f(t,c)': 10.514751542475933,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.4898979485566356,
+ 'num_embedded_var': 9.625487000666512,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 0.9000000000000001}
+======
+[[0, 2, 1], [1, 0, 2], [1, 2]]
+k:  1
+--Average--
+{'Count': 1831.7,
+ 'Permutation': 1992.9,
+ 'SequenceOrder': 1265.3000000000002,
+ 'chain_count': 117.7,
+ 'correct': 0.0,
+ 'f(t,c)': 2000.0,
+ 'lowest_energy': 1753.0,
+ 'max_chain_len': 7.9,
+ 'num_embedded_var': 491.90000000000003,
+ 'num_var': 133.0,
+ 'samples_with_lowest_energy': 0.2}
+--Standard Deviation--
+{'Count': 130.6063168457024,
+ 'Permutation': 4.742362280551751,
+ 'SequenceOrder': 149.33723581210413,
+ 'chain_count': 4.450842616853578,
+ 'correct': 0.0,
+ 'f(t,c)': 0.0,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.7000000000000001,
+ 'num_embedded_var': 31.948239388110263,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 0.4000000000000001}
+======
+[[0, 2, 1], [1, 0, 2], [1, 2]]
+k:  2
+--Average--
+{'Count': 1580.3000000000002,
+ 'Permutation': 1988.1000000000001,
+ 'SequenceOrder': 1061.6000000000001,
+ 'chain_count': 100.5,
+ 'correct': 0.0,
+ 'f(t,c)': 2000.0,
+ 'lowest_energy': 1003.0,
+ 'max_chain_len': 7.300000000000001,
+ 'num_embedded_var': 401.6,
+ 'num_var': 117.0,
+ 'samples_with_lowest_energy': 0.1}
+--Standard Deviation--
+{'Count': 244.1974815594952,
+ 'Permutation': 7.313685801290619,
+ 'SequenceOrder': 63.13984478916622,
+ 'chain_count': 3.293933818400121,
+ 'correct': 0.0,
+ 'f(t,c)': 0.0,
+ 'lowest_energy': 0.0,
+ 'max_chain_len': 0.9,
+ 'num_embedded_var': 25.58984173456335,
+ 'num_var': 0.0,
+ 'samples_with_lowest_energy': 0.30000000000000004}
+======

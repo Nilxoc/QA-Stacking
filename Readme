@@ -1,0 +1,21 @@
+Ein vollständiger Durchlauf aller Probleminstanzen ist über das Skript fullRunPallet.py möglich.
+python3 fullRunPallet.py
+
+Das Skript bietet mit der variable additional_parameters die Möglichkeit, Solverparameter zu setzen
+Das Diagramm muss dann über den dialog abgespeichert werden
+
+Alternativ:
+Um die Daten für die Pallettenlösung zu erhalten sind zwei Schritte notwendig.
+
+1. python3 stackingPallet.py -s Sequenzen -m QA -nr 10000
+
+Dadurch wird die Datei data/pallet/QA-{Aktueller Zeitstempel} erzeugt
+
+2. Setze die variable "files" in plotResultsPal.py auf die entsprechenden Dateien
+  2. Überprüfe writtenLabels(x-Achse)
+
+3. python3 plotResultsPal.py
+
+Das Diagramm kann aus dem Dialog abgespeichert werden. Die genauen Werte werden auf der Konsole ausgegeben. 
+
+Einstellbare Parameter finden sich unter https://docs.dwavesys.com/docs/latest/c_solver_parameters.html?highlight=parameters

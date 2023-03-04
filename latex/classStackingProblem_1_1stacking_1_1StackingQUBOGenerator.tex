@@ -1,0 +1,161 @@
+\hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator}{}\doxysection{Stacking\+Problem.\+stacking.\+Stacking\+Q\+U\+B\+O\+Generator Class Reference}
+\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator}\index{StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}}
+
+
+Class to convert an instance of the stacking problem to a Q\+U\+BO Formulation of that instance.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_abc201b85d7631727739ab613d0847ea5}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (this, sequences, dec\+\_\+bound=1)
+\begin{DoxyCompactList}\small\item\em Initialize the generator. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a085d24e621bbbbd13b2b06f2037a45d9}{generate\+Linears}} (this)
+\begin{DoxyCompactList}\small\item\em Helper function to generate every linear entry according to bin\+Count. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a95e264130cec17472a4796144085d825}{variable\+Name}} (this, index, time)
+\begin{DoxyCompactList}\small\item\em Return the name of the bin with the given index at the given time. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a4bf8302875d093e003bf9422586984da}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a4bf8302875d093e003bf9422586984da}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a4bf8302875d093e003bf9422586984da}{f\+Name}} (this, label, time)
+\begin{DoxyCompactList}\small\item\em Returns the variable containing the result of f(label,time) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_ab0909ab76cafc786eb4d465c0739a33d}{generate\+Or}} (this, values)
+\begin{DoxyCompactList}\small\item\em Models an OR statement over the given values. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_addeb572deebaab799542d84bbe5a1770}{f}} (this, t)
+\begin{DoxyCompactList}\small\item\em Generate term for f(t,c), which indicates whether bins with label t require a stacking place at time c. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_aabc65d5009f3e3f6270fbe3583a809df}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_aabc65d5009f3e3f6270fbe3583a809df}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_aabc65d5009f3e3f6270fbe3583a809df}{square\+Aux}} (this, aux\+Name, factor=1)
+\begin{DoxyCompactList}\small\item\em Calculate the square of an auxiliary variable, which is a natural number represented by multiple qubits in binary notation. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a98cf838aefa3210b34e49b226c738983}{sequence\+Order\+For\+Sequence}} (this, time, sequence)
+\begin{DoxyCompactList}\small\item\em Models the S\+E\+Q\+U\+E\+N\+C\+E\+\_\+\+O\+R\+D\+ER constraint for one sequence. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_afb90d5ed896897028943678130b6e126}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_afb90d5ed896897028943678130b6e126}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_afb90d5ed896897028943678130b6e126}{permutation\+Constraint}} (this)
+\begin{DoxyCompactList}\small\item\em Models the P\+E\+R\+M\+U\+T\+A\+T\+I\+ON constraint, which ensures that Each bin is only removed once and only one removal is performed at each point in time. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a35cce8193d1b93316f229cb785116586}{sequence\+Order}} (this)
+\begin{DoxyCompactList}\small\item\em Models the S\+E\+Q\+U\+E\+N\+C\+E\+\_\+\+O\+R\+D\+ER constraint. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_ad1734206bfd46ffdaa35c4269825a25f}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_ad1734206bfd46ffdaa35c4269825a25f}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_ad1734206bfd46ffdaa35c4269825a25f}{ftc\+Constraint}} (this)
+\begin{DoxyCompactList}\small\item\em Model the boolean expressions to set the values of each f(t,c) correctly. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a1c6d9d6967e79a7519c810225afc817a}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a1c6d9d6967e79a7519c810225afc817a}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a1c6d9d6967e79a7519c810225afc817a}{count\+Stacking\+Places\+Constraint}} (this)
+\begin{DoxyCompactList}\small\item\em Model the inequalities which ensure that p is set to the highest number of stacking places required at the same time. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a63701ded566adb1454b8b65617de4450}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a63701ded566adb1454b8b65617de4450}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a63701ded566adb1454b8b65617de4450}{fix\+Plan\+Variables}} (this)
+\begin{DoxyCompactList}\small\item\em Fixes plan variables that can never be 1 because of their position in the sequence. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a9b31bcd44722aad095ff99959149af80}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a9b31bcd44722aad095ff99959149af80}} 
+def {\bfseries generate\+B\+QM} (this)
+\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a0d5306388c7fa1494340a077f7047bb4}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a0d5306388c7fa1494340a077f7047bb4}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a0d5306388c7fa1494340a077f7047bb4}{break\+Down\+Variables}} (this)
+\begin{DoxyCompactList}\small\item\em Output a breakdown of how many variables are created for what purpose. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class to convert an instance of the stacking problem to a Q\+U\+BO Formulation of that instance. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_abc201b85d7631727739ab613d0847ea5}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_abc201b85d7631727739ab613d0847ea5}} 
+\index{StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking.\+Stacking\+Q\+U\+B\+O\+Generator.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{sequences,  }\item[{}]{dec\+\_\+bound = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+Initialize the generator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sequences} & List of sequences. Each sequence lists the labels of the bins it contains \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_addeb572deebaab799542d84bbe5a1770}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_addeb572deebaab799542d84bbe5a1770}} 
+\index{StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}!f@{f}}
+\index{f@{f}!StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{f()}{f()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking.\+Stacking\+Q\+U\+B\+O\+Generator.\+f (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{t }\end{DoxyParamCaption})}
+
+
+
+Generate term for f(t,c), which indicates whether bins with label t require a stacking place at time c. 
+
+After execution, bqm will contain a variable \textquotesingle{}f(t,c)\textquotesingle{} for every c and constraints will be modeled so \textquotesingle{}f(t,c)\textquotesingle{} contains 1 if a stacking place is required and 0 if no stacking place is required.
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & Label \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a085d24e621bbbbd13b2b06f2037a45d9}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a085d24e621bbbbd13b2b06f2037a45d9}} 
+\index{StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}!generateLinears@{generateLinears}}
+\index{generateLinears@{generateLinears}!StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{generateLinears()}{generateLinears()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking.\+Stacking\+Q\+U\+B\+O\+Generator.\+generate\+Linears (\begin{DoxyParamCaption}\item[{}]{this }\end{DoxyParamCaption})}
+
+
+
+Helper function to generate every linear entry according to bin\+Count. 
+
+Mostly useful for testing. \mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_ab0909ab76cafc786eb4d465c0739a33d}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_ab0909ab76cafc786eb4d465c0739a33d}} 
+\index{StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}!generateOr@{generateOr}}
+\index{generateOr@{generateOr}!StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{generateOr()}{generateOr()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking.\+Stacking\+Q\+U\+B\+O\+Generator.\+generate\+Or (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{values }\end{DoxyParamCaption})}
+
+
+
+Models an OR statement over the given values. 
+
+Up to len(values) auxiliary variables will be created.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & The values in the or statement\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The name of the auxiliary variable containing the result of the expression 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a35cce8193d1b93316f229cb785116586}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a35cce8193d1b93316f229cb785116586}} 
+\index{StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}!sequenceOrder@{sequenceOrder}}
+\index{sequenceOrder@{sequenceOrder}!StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{sequenceOrder()}{sequenceOrder()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking.\+Stacking\+Q\+U\+B\+O\+Generator.\+sequence\+Order (\begin{DoxyParamCaption}\item[{}]{this }\end{DoxyParamCaption})}
+
+
+
+Models the S\+E\+Q\+U\+E\+N\+C\+E\+\_\+\+O\+R\+D\+ER constraint. 
+
+This constraint ensures, that the bins of each sequence are removed in order. \mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a98cf838aefa3210b34e49b226c738983}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a98cf838aefa3210b34e49b226c738983}} 
+\index{StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}!sequenceOrderForSequence@{sequenceOrderForSequence}}
+\index{sequenceOrderForSequence@{sequenceOrderForSequence}!StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{sequenceOrderForSequence()}{sequenceOrderForSequence()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking.\+Stacking\+Q\+U\+B\+O\+Generator.\+sequence\+Order\+For\+Sequence (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{time,  }\item[{}]{sequence }\end{DoxyParamCaption})}
+
+
+
+Models the S\+E\+Q\+U\+E\+N\+C\+E\+\_\+\+O\+R\+D\+ER constraint for one sequence. 
+
+See also \mbox{\hyperlink{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a35cce8193d1b93316f229cb785116586}{sequence\+Order()}}. \mbox{\Hypertarget{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a95e264130cec17472a4796144085d825}\label{classStackingProblem_1_1stacking_1_1StackingQUBOGenerator_a95e264130cec17472a4796144085d825}} 
+\index{StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}!variableName@{variableName}}
+\index{variableName@{variableName}!StackingProblem.stacking.StackingQUBOGenerator@{StackingProblem.stacking.StackingQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{variableName()}{variableName()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking.\+Stacking\+Q\+U\+B\+O\+Generator.\+variable\+Name (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{index,  }\item[{}]{time }\end{DoxyParamCaption})}
+
+
+
+Return the name of the bin with the given index at the given time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The index of the bin \\
+\hline
+{\em time} & The step in the plan \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+stacking.\+py\end{DoxyCompactItemize}

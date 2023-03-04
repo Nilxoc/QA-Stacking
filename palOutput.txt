@@ -1,0 +1,72 @@
+==========
+Sequences: [[0, 1], [1, 0]]
+Number of constraint violations: {'Permutation': 480, 'Y(j,c)': 1801, 'Count': 1646}
+Number of variables(before embedding):11
+Max chain length:  2 for x(1,0)andx(0,1)
+Chain count:  2
+Number of samples without violated constraints: 6330
+==========
+Sequences: [[0, 1, 1], [1, 0, 1]]
+Number of constraint violations: {'Permutation': 580, 'Y(j,c)': 2613, 'Count': 1222}
+Number of variables(before embedding):11
+Max chain length:  2 for Y(0,0)
+Chain count:  2
+Number of samples without violated constraints: 5960
+==========
+Sequences: [[0, 2, 1], [1, 0, 2]]
+Number of constraint violations: {'Permutation': 3327, 'Y(j,c)': 9152, 'Count': 2064}
+Number of variables(before embedding):43
+Max chain length:  3 for x(0,1)
+Chain count:  26
+Number of samples without violated constraints: 466
+==========
+Sequences: [[0, 1, 0, 1], [1, 1, 0, 0]]
+Number of constraint violations: {'Permutation': 418, 'Y(j,c)': 1596, 'Count': 883}
+Number of variables(before embedding):11
+Max chain length:  2 for Y(0,0)
+Chain count:  1
+Number of samples without violated constraints: 7353
+==========
+Sequences: [[0, 2], [1, 1], [2, 0]]
+Number of constraint violations: {'Permutation': 2912, 'Y(j,c)': 5654, 'Count': 4962}
+Number of variables(before embedding):25
+Max chain length:  2 for x(0,0)
+Chain count:  12
+Number of samples without violated constraints: 1168
+==========
+Sequences: [[0, 2, 1], [1, 0, 2], [1, 2]]
+Number of constraint violations: {'Permutation': 3123, 'Y(j,c)': 9022, 'Count': 3058}
+Number of variables(before embedding):43
+Max chain length:  3 for x(1,0)
+Chain count:  24
+Number of samples without violated constraints: 433
+==========
+Sequences: [[0, 2, 1], [1, 0, 2], [1, 2, 0]]
+Number of constraint violations: {'Permutation': 3954, 'Y(j,c)': 9165, 'Count': 4058}
+Number of variables(before embedding):49
+Max chain length:  3 for x(0,0)
+Chain count:  30
+Number of samples without violated constraints: 271
+==========
+Sequences: [[1, 2, 1, 0], [1, 0, 2, 0]]
+Number of constraint violations: {'Permutation': 3723, 'Y(j,c)': 9547, 'Count': 7494}
+Number of variables(before embedding):43
+Max chain length:  3 for x(0,2)
+Chain count:  24
+Number of samples without violated constraints: 83
+==========
+Sequences: [[0, 1, 3, 2], [3, 1, 0, 2]]
+Number of constraint violations: {'Permutation': 9989, 'Y(j,c)': 10000, 'Count': 9998}
+Number of variables(before embedding):133
+Max chain length:  7 for Y(2,2)
+Chain count:  99
+Number of samples without violated constraints: 0
+1 & 11 & 6330 & 2338(1.0?) & 480 & 1801 & 1646\\ \hline
+2 & 11 & 5960 & 1999(1.0?) & 580 & 2613 & 1222\\ \hline
+3 & 43 & 466 & 34(1.0?) & 3327 & 9152 & 2064\\ \hline
+4 & 11 & 7353 & 2718(1.0?) & 418 & 1596 & 883\\ \hline
+5 & 25 & 1168 & 352(1.0?) & 2912 & 5654 & 4962\\ \hline
+6 & 43 & 433 & 61(1.0?) & 3123 & 9022 & 3058\\ \hline
+7 & 49 & 271 & 157(2.0?) & 3954 & 9165 & 4058\\ \hline
+8 & 43 & 83 & 22(1.0?) & 3723 & 9547 & 7494\\ \hline
+9 & 133 & 0 & 1(14005.0?) & 9989 & 10000 & 9998\\ \hline

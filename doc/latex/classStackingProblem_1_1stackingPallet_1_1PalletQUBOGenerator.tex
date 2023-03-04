@@ -1,0 +1,179 @@
+\hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator}{}\doxysection{Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator Class Reference}
+\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator}\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_aa549cd60fc81083e49b8fad126795b9f}{construct\+Sequence\+Graph}} (this)
+\begin{DoxyCompactList}\small\item\em Constructs the sequence Graph for the problem. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_ad336d050dafbf1a5d31b19c1df87bdfa}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (this, sequences, auto\+Generate=True, penalty\+Mul=50)
+\begin{DoxyCompactList}\small\item\em Constructs a generator for pallet-\/solution bqms. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a3faca10b9cb38e46a9fd6f02e64d16fb}{var\+Name}} (this, i, j)
+\begin{DoxyCompactList}\small\item\em Returns the B\+Q\+M-\/\+Variable name for the plan variable with the given indices. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a2cb87d618a97c62be2b217ffdeaf0b83}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a2cb87d618a97c62be2b217ffdeaf0b83}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a2cb87d618a97c62be2b217ffdeaf0b83}{permutation\+Constraint}} (this)
+\begin{DoxyCompactList}\small\item\em Models the constraint which ensures that each position is used by exactly one label and each label uses exactly one position. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a10712757b755917dd12ba30c6cc7afa8}{model\+Or}} (this, left, right, aux\+Name)
+\begin{DoxyCompactList}\small\item\em Models the boolean expression aux\+Name = left OR right in the B\+QM. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a1a9fc53792837ad184886ac8802d8a17}{y\+Name}} (this, j, c)
+\begin{DoxyCompactList}\small\item\em Returns name for auxiliary variable holding value of Y(j,c) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a296a1b6055b091855575eb1a68787adf}{y}} (this, j, c)
+\begin{DoxyCompactList}\small\item\em Model Y(j,c) for the given j and c. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a62dcbfe6fe3a90cbdb21956aa627b092}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a62dcbfe6fe3a90cbdb21956aa627b092}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a62dcbfe6fe3a90cbdb21956aa627b092}{yjc}} (this)
+\begin{DoxyCompactList}\small\item\em Generates all relevant expressions for Y(j,c) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a3c7f6bcafd0b07567bcb8a28db5f1e0d}{square\+Aux}} (this, aux\+Name, factor=1)
+\begin{DoxyCompactList}\small\item\em Add expression to represent the square of an auxiliary variable, which is a natural number represented by multiple qubits in binary notation. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a1fe64fa2f2caeb7a4edc88da4f500ed4}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a1fe64fa2f2caeb7a4edc88da4f500ed4}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a1fe64fa2f2caeb7a4edc88da4f500ed4}{inequality\+Constraints}} (this)
+\begin{DoxyCompactList}\small\item\em Models the necessary inequalities to set w to the correct value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a8532db3dd9a67f463fe6146d0f2e7c98}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a8532db3dd9a67f463fe6146d0f2e7c98}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a8532db3dd9a67f463fe6146d0f2e7c98}{generate\+B\+QM}} (this)
+\begin{DoxyCompactList}\small\item\em Performs all neccessary steps to fully model the problem. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a0c50f03018b1e6d740a497b15c2ac652}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a0c50f03018b1e6d740a497b15c2ac652}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a0c50f03018b1e6d740a497b15c2ac652}{break\+Down\+Variables}} (this)
+\begin{DoxyCompactList}\small\item\em Prints information about variable usage to console. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_aa1b61ea8f319982cd998c44db74302a5}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_aa1b61ea8f319982cd998c44db74302a5}} 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_aa1b61ea8f319982cd998c44db74302a5}{get\+Max\+Bias}} (this)
+\begin{DoxyCompactList}\small\item\em Returns the biggest coupler bias. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_ad052926b1b812a997d5498d9e6091125}{interpret\+Sample}} (this, sample)
+\begin{DoxyCompactList}\small\item\em Interprets the solution described by the given sample. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_ad336d050dafbf1a5d31b19c1df87bdfa}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_ad336d050dafbf1a5d31b19c1df87bdfa}} 
+\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{sequences,  }\item[{}]{auto\+Generate = {\ttfamily True},  }\item[{}]{penalty\+Mul = {\ttfamily 50} }\end{DoxyParamCaption})}
+
+
+
+Constructs a generator for pallet-\/solution bqms. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sequences} & List of sequences to stack from. The sequences are ordered lists of labels. \\
+\hline
+{\em auto\+Generate} & Whether to immediately generate the full bqm during construction \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_aa549cd60fc81083e49b8fad126795b9f}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_aa549cd60fc81083e49b8fad126795b9f}} 
+\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}!constructSequenceGraph@{constructSequenceGraph}}
+\index{constructSequenceGraph@{constructSequenceGraph}!StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{constructSequenceGraph()}{constructSequenceGraph()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator.\+construct\+Sequence\+Graph (\begin{DoxyParamCaption}\item[{}]{this }\end{DoxyParamCaption})}
+
+
+
+Constructs the sequence Graph for the problem. 
+
+The sequence graph contains a directed edge between labels iff the label at the start of the edge must be opened before the label at the end of the edge can be closed. \mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_ad052926b1b812a997d5498d9e6091125}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_ad052926b1b812a997d5498d9e6091125}} 
+\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}!interpretSample@{interpretSample}}
+\index{interpretSample@{interpretSample}!StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{interpretSample()}{interpretSample()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator.\+interpret\+Sample (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{sample }\end{DoxyParamCaption})}
+
+
+
+Interprets the solution described by the given sample. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sample} & The sample to examine \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a10712757b755917dd12ba30c6cc7afa8}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a10712757b755917dd12ba30c6cc7afa8}} 
+\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}!modelOr@{modelOr}}
+\index{modelOr@{modelOr}!StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{modelOr()}{modelOr()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator.\+model\+Or (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{left,  }\item[{}]{right,  }\item[{}]{aux\+Name }\end{DoxyParamCaption})}
+
+
+
+Models the boolean expression aux\+Name = left OR right in the B\+QM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & One of the variables of the expression \\
+\hline
+{\em right} & One of the variables of the expression \\
+\hline
+{\em aux\+Name} & Name of the auxiliary variable which holds the result of the expression \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a3c7f6bcafd0b07567bcb8a28db5f1e0d}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a3c7f6bcafd0b07567bcb8a28db5f1e0d}} 
+\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}!squareAux@{squareAux}}
+\index{squareAux@{squareAux}!StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{squareAux()}{squareAux()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator.\+square\+Aux (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{aux\+Name,  }\item[{}]{factor = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+Add expression to represent the square of an auxiliary variable, which is a natural number represented by multiple qubits in binary notation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em aux\+Name} & Name of the number to square \\
+\hline
+{\em factor} & Factor to multiply the squared variable by \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a3faca10b9cb38e46a9fd6f02e64d16fb}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a3faca10b9cb38e46a9fd6f02e64d16fb}} 
+\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}!varName@{varName}}
+\index{varName@{varName}!StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{varName()}{varName()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator.\+var\+Name (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{i,  }\item[{}]{j }\end{DoxyParamCaption})}
+
+
+
+Returns the B\+Q\+M-\/\+Variable name for the plan variable with the given indices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & Index i \\
+\hline
+{\em j} & Index j \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a296a1b6055b091855575eb1a68787adf}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a296a1b6055b091855575eb1a68787adf}} 
+\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}!y@{y}}
+\index{y@{y}!StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{y()}{y()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator.\+y (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{j,  }\item[{}]{c }\end{DoxyParamCaption})}
+
+
+
+Model Y(j,c) for the given j and c. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & Value of j \\
+\hline
+{\em c} & Value of c \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a1a9fc53792837ad184886ac8802d8a17}\label{classStackingProblem_1_1stackingPallet_1_1PalletQUBOGenerator_a1a9fc53792837ad184886ac8802d8a17}} 
+\index{StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}!yName@{yName}}
+\index{yName@{yName}!StackingProblem.stackingPallet.PalletQUBOGenerator@{StackingProblem.stackingPallet.PalletQUBOGenerator}}
+\doxysubsubsection{\texorpdfstring{yName()}{yName()}}
+{\footnotesize\ttfamily def Stacking\+Problem.\+stacking\+Pallet.\+Pallet\+Q\+U\+B\+O\+Generator.\+y\+Name (\begin{DoxyParamCaption}\item[{}]{this,  }\item[{}]{j,  }\item[{}]{c }\end{DoxyParamCaption})}
+
+
+
+Returns name for auxiliary variable holding value of Y(j,c) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & Value of j \\
+\hline
+{\em c} & Value of c \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+stacking\+Pallet.\+py\end{DoxyCompactItemize}
